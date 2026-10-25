@@ -1,0 +1,33 @@
+# Secrets & Credentials
+.env
+client_secret.json
+token.json
+token.pickle
+credentials.json
+*.key
+
+# Outputs - don't push videos
+output/*
+!output/.gitkeep
+downloads/*
+!downloads/.gitkeep
+*.mp4
+*.mp3
+*.wav
+*.jpg
+*.png
+!assets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+*.egg-info/
+.venv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
